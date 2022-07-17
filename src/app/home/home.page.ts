@@ -14,7 +14,7 @@ export class HomePage {
   async openModal(expandable = false) {
     const modal = await this.modalCtrl.create({
       component: DatemodalPage,
-      // breakpoints: expandable ? [ 0.9, 1] : [0.9],
+      breakpoints: expandable ? [ 0.9, 1] : [0.9],
       initialBreakpoint: 0.9,
     });
     await modal.present();
