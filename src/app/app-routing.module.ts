@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'datemodal',
+    loadChildren: () => import('./datemodal/datemodal.module').then( m => m.DatemodalPageModule)
+  },
 ];
 
 @NgModule({
