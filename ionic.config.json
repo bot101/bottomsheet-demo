@@ -1,0 +1,7 @@
+{
+  "name": "bottomsheet-demo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
